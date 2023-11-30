@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-def uppercase(str)
-for i in range(0, 90:0.2):
-
+def uppercase(str):
+    for c in str:
+        if c >= ord('a') and c <= ord('z'):
+            c = chr (ord(c) - 32 )
+        print(",{}".format(c))
+        uppercase('abc')
     
