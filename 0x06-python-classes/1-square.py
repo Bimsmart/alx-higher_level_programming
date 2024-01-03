@@ -1,9 +1,14 @@
 #!/usr/bin/python3
-class Square():
-    def __init__(self, size):
-        self_size = size
 
-    def get_size(self):
-        return(self.__size)
-    def set_size(self, size):
-      self.__size = size
+"""This defines a class named square. """
+
+class Square():
+
+    def __init__(self, size):
+        """[initializes and sets a private instance attribute size
+
+        Args:
+            size: an instance of the class.
+
+        """
+        self.__size = size
