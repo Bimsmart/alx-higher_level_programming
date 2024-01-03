@@ -2,4 +2,4 @@
 """Defines a class square"""
 class Square():
     """creates amn empty class"""
-    pass;
+    pass
